@@ -11,13 +11,13 @@ import {
   StatsData,
 } from './ProfileList.styled';
 
-const API_URL = "https://65290dd855b137ddc83e2108.mockapi.io/users";
+const API_URL = 'https://65290dd855b137ddc83e2108.mockapi.io/users';
 
 export const ProfileList = () => {
-  const [data, setData] = useState([]); // Масив усіх контактів
-  const [usersPerPage] = useState(3); // Кількість користувачів на сторінці
-  const [currentPage, setCurrentPage] = useState(1); // Поточна сторінка
-  const [allDataLoaded, setAllDataLoaded] = useState(false); // Прапорець, що вказує, чи всі дані завантажено
+  const [data, setData] = useState([]);
+  const [usersPerPage] = useState(3);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [allDataLoaded, setAllDataLoaded] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -31,15 +31,12 @@ export const ProfileList = () => {
 
         const usersData = await response.json();
 
-        // Якщо це перша сторінка, очистити поточі дані перед завантаженням нових
         if (currentPage === 1) {
           setData(usersData);
         } else {
-          // Інакше додати нові дані до існуючих
           setData(prevData => [...prevData, ...usersData]);
         }
 
-        // Перевірити, чи всі дані були завантажені
         if (usersData.length < usersPerPage) {
           setAllDataLoaded(true);
         }
@@ -69,7 +66,7 @@ export const ProfileList = () => {
   };
 
   const loadMoreUsers = () => {
-    setCurrentPage(currentPage + 1); // Збільшити поточну сторінку
+    setCurrentPage(currentPage + 1);
   };
 
   return (
