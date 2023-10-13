@@ -11,7 +11,7 @@ import {
   StatsData,
 } from './ProfileList.styled';
 
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = "https://65290dd855b137ddc83e2108.mockapi.io/users";
 
 export const ProfileList = () => {
   const [data, setData] = useState([]); // Масив усіх контактів
