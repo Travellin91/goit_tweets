@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Travellin91/goit_tweets/static/css/main.b5320759.css",
-    "main.js": "/Travellin91/goit_tweets/static/js/main.8b7452be.js",
-    "static/media/bg.png": "/Travellin91/goit_tweets/static/media/bg.38ea3189a2c780f4bbbf.png",
-    "index.html": "/Travellin91/goit_tweets/index.html",
-    "main.b5320759.css.map": "/Travellin91/goit_tweets/static/css/main.b5320759.css.map",
-    "main.8b7452be.js.map": "/Travellin91/goit_tweets/static/js/main.8b7452be.js.map"
+    "main.css": "/goit_tweets/static/css/main.b5320759.css",
+    "main.js": "/goit_tweets/static/js/main.8e5284c9.js",
+    "static/media/bg.png": "/goit_tweets/static/media/bg.38ea3189a2c780f4bbbf.png",
+    "index.html": "/goit_tweets/index.html",
+    "main.b5320759.css.map": "/goit_tweets/static/css/main.b5320759.css.map",
+    "main.8e5284c9.js.map": "/goit_tweets/static/js/main.8e5284c9.js.map"
   },
   "entrypoints": [
     "static/css/main.b5320759.css",
-    "static/js/main.8b7452be.js"
+    "static/js/main.8e5284c9.js"
   ]
 }
