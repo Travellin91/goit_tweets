@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Travellin91/TestGoIT/static/css/main.b5320759.css",
+    "main.js": "/Travellin91/TestGoIT/static/js/main.803321b3.js",
+    "static/media/bg.png": "/Travellin91/TestGoIT/static/media/bg.38ea3189a2c780f4bbbf.png",
+    "index.html": "/Travellin91/TestGoIT/index.html",
+    "main.b5320759.css.map": "/Travellin91/TestGoIT/static/css/main.b5320759.css.map",
+    "main.803321b3.js.map": "/Travellin91/TestGoIT/static/js/main.803321b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5320759.css",
+    "static/js/main.803321b3.js"
+  ]
+}
